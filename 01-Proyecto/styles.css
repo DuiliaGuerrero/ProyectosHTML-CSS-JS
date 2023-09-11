@@ -42,3 +42,14 @@ body, html{
     }
     
 }
+
+@media screen and (min-width: 600px) and (max-width:780px) {
+    body{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .header{
+        background: #F92672;
+    }
+    
+}
