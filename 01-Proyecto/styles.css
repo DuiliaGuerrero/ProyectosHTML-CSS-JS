@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Phudu:wght@600&family=Work+Sans:wght@300&display=swap');
+
+body, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Phudu', cursive;
+}
+
+.header{
+    background: rgb(218,195,252);
+    background: linear-gradient(90deg, rgba(218,195,252,1) 0%, rgba(202,196,252,1) 35%, rgba(236,197,251,1) 100%);
+}
+
+.mi-logo{
+    width: 100px;
+    height: 100px;
+}
+
+.nav-bar{
+    background-color: burlywood;
+    float: right;
+}
+
+.list-element{
+    color: blue;
+    text-decoration: none;
+    list-style: none;
+}
+
+.contenedor{
+    font-size: 80px;
+}
+
+@media screen and (min-width: 1060px) and (max-width:1440px) {
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .header{
+        background: blue;
+    }
+    
+}
